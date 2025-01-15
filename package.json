@@ -1,0 +1,32 @@
+{
+  "name": "lynk-utils",
+  "version": "1.0.0",
+  "description": "A utility library for data manipulation and calculations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "utilities",
+    "data",
+    "manipulation",
+    "calculations"
+  ],
+  "author": "Md. Mahbubur Rahman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
+}

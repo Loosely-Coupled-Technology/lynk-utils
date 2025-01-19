@@ -189,7 +189,7 @@ export const lynkLog = function(ctx: any): LynkLogger {
     const args = Array.prototype.slice.call(arguments);
     args.unshift(console);
     if (ctx !== undefined) {
-        return Function.prototype.bind.apply(console.log, [console, ...args]);
+        return Function.prototype.bind.apply(console.log, args as [any, ...any[]]);
     }
     return () => {};
 };
